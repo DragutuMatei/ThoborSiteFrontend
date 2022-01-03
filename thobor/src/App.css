@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  position: relative;
+  z-index: 2;
+}
+
+.bg {
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 15em;
+  -webkit-animation: slideFromBottom 2.5s ease forwards;
+          animation: slideFromBottom 2.5s ease forwards;
+}
+
+.heading h3 {
+  padding-top: 80px;
+  font-size: 36px;
+  color: #b4b6bd;
+}
+
+.heading h1 {
+  font-size: 118px;
+  color: white;
+}
+
+@-webkit-keyframes slideFromBottom {
+  0% {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideFromBottom {
+  0% {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.whatwedo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.whatwedo h2 {
+  font-size: 48px;
+  padding-top: 5em;
+  padding-bottom: 15px;
+}
+
+.whatwedo hr {
+  width: 5%;
+  color: #2dee2d;
+}
+
+.whatwedo ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.whatwedo ul li {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.333333%;
+          flex: 0 0 33.333333%;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.whatwedo ul li h4 {
+  color: #898EA1;
+  text-align: center;
+}
+
+.whatwedo ul li h3 {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.sponsor {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px 10px;
+      grid-template-areas: "lol lol2 lol3" "lol8 . lol4" "lol7 lol6 lol5";
+  padding-top: 15px;
+}
+
+.sponsor img {
+  width: 300px;
+  height: 150px;
+  border-radius: 15px;
+}
+
+.lol {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: lol;
+}
+
+.lol2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: lol2;
+}
+
+.lol3 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: lol3;
+}
+
+.lol4 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: lol4;
+}
+
+.lol5 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: lol5;
+}
+
+.lol6 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: lol6;
+}
+
+.lol7 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: lol7;
+}
+
+.lol8 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: lol8;
+}
+
+.sponsors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sponsors h2 {
+  font-size: 48px;
+  padding-top: 5em;
+  padding-bottom: 15px;
+}
+
+.sponsors h4 {
+  font-size: 24px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #898EA1;
+}
+
+.sponsors hr {
+  width: 5%;
+  color: #2dee2d;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 20em;
+}
+
+.footer h1 {
+  text-align: center;
+}
+
+.footer .footer_button {
+  border: 0;
+  border-radius: 20px;
+  width: 150px;
+  height: 50px;
+  background-color: #2dee2d;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+.footer .footer_button span {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+
+.footer .footer_button:hover {
+  background-color: black;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.footer .footer_button:hover span {
+  color: #2dee2d;
+}
+
+.members {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 5em;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.members h2 {
+  font-size: 48px;
+}
+
+.members h3 {
+  font-size: 24px;
+}
+
+.members hr {
+  margin-top: 1em;
+  width: 25%;
+  color: #2dee2d;
+}
+
+.members img {
+  width: 100px;
+  height: 100px;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+}
+
+.members ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.members ul li {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.333333%;
+          flex: 0 0 33.333333%;
+  padding: 20px;
+}
+
+.members ul li h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.members ul li h5 {
+  font-size: 16px;
+  color: #898EA1;
+}
+/*# sourceMappingURL=App.css.map */

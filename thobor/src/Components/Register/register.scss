@@ -1,0 +1,47 @@
+.register_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 5em;
+    padding-bottom: 10em;
+    img {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+    }
+    .text_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .pass {
+            display: flex;
+            flex-direction: row;
+        }
+        label {
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+        button {
+            margin-top: 25px;
+            margin-bottom: 25px;
+            border: none;
+            border-radius: 20px;
+            background: linear-gradient(#11998e, #38ef7d);
+            width: 200px;
+            height: 40px;
+            color: white;
+            cursor: pointer;
+        }
+        hr {
+            width: 80%;
+            color: #11998e;
+        }
+        input {
+            border: none;
+            outline: none;
+            padding: 5px;
+        }
+    }
+}

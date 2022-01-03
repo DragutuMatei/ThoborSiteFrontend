@@ -1,0 +1,58 @@
+body {
+  background-color: grey;
+}
+
+.login_form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  border: none;
+  height: 100vh;
+  width: 50%;
+  overflow: hidden;
+}
+
+.login_form form h2 {
+  padding: 50px 0px 50px 0px;
+}
+
+.login_form form #username {
+  border: none;
+  background-color: #d8d1d1;
+  border-radius: 20px;
+  width: 250px;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.login_form form #password {
+  margin-top: 10px;
+  border: none;
+  background-color: #d8d1d1;
+  border-radius: 20px;
+  width: 250px;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.login_form form button {
+  margin-top: 50px;
+  border: none;
+  border-radius: 50px;
+  width: 250px;
+  height: 40px;
+  background: #4deb45;
+}
+/*# sourceMappingURL=login.css.map */
