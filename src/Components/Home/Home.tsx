@@ -1,5 +1,6 @@
 import React from "react";
-import './home.scss';
+import Navbar from "../Navbar/navbar";
+import "./home.scss";
 
 function Home() {
   return (
@@ -19,10 +20,7 @@ function Home() {
         <hr></hr>
         <ul>
           <li>
-            <img
-              src={require("../Images/uiux.png").default}
-              alt="ui/ux"
-            />
+            <img src={require("../Images/uiux.png").default} alt="ui/ux" />
             <h3>UI/UX</h3>
             <h4>Web designing and Web apps</h4>
           </li>
@@ -51,10 +49,7 @@ function Home() {
             <h4>Proggraming the robot.</h4>
           </li>
           <li>
-            <img
-              src={require("../Images/motion.png").default}
-              alt="motion"
-            />
+            <img src={require("../Images/motion.png").default} alt="motion" />
             <h3>Motion</h3>
             <h4>2D Art combined with Blender and Fusion</h4>
           </li>
@@ -74,50 +69,32 @@ function Home() {
         <hr></hr>
         <ul>
           <li>
-            <img
-              src={require("../Images/matei.jpg").default}
-              alt="membru"
-            />
+            <img src={require("../Images/matei.jpg").default} alt="membru" />
             <h4>Dragutu Matei</h4>
             <h5>Programare</h5>
           </li>
           <li>
-            <img
-              src={require("../Images/matei.jpg").default}
-              alt="membru"
-            />
+            <img src={require("../Images/matei.jpg").default} alt="membru" />
             <h4>Dragutu Matei</h4>
             <h5>Programare</h5>
           </li>
           <li>
-            <img
-              src={require("../Images/matei.jpg").default}
-              alt="membru"
-            />
+            <img src={require("../Images/matei.jpg").default} alt="membru" />
             <h4>Dragutu Matei</h4>
             <h5>Programare</h5>
           </li>
           <li>
-            <img
-              src={require("../Images/matei.jpg").default}
-              alt="membru"
-            />
+            <img src={require("../Images/matei.jpg").default} alt="membru" />
             <h4>Dragutu Matei</h4>
             <h5>Programare</h5>
           </li>
           <li>
-            <img
-              src={require("../Images/matei.jpg").default}
-              alt="membru"
-            />
+            <img src={require("../Images/matei.jpg").default} alt="membru" />
             <h4>Dragutu Matei</h4>
             <h5>Programare</h5>
           </li>
           <li>
-            <img
-              src={require("../Images/matei.jpg").default}
-              alt="membru"
-            />
+            <img src={require("../Images/matei.jpg").default} alt="membru" />
             <h4>Dragutu Matei</h4>
             <h5>Programare</h5>
           </li>
@@ -129,52 +106,28 @@ function Home() {
         <h4>We traveled and spread the word with them.</h4>
         <div className="sponsor">
           <div className="lol">
-            <img
-              src={require("../Images/agrimat.png").default}
-              alt="sp"
-            />
+            <img src={require("../Images/agrimat.png").default} alt="sp" />
           </div>
           <div className="lol2">
-            <img
-              src={require("../Images/artesana.png").default}
-              alt="sp"
-            />
+            <img src={require("../Images/artesana.png").default} alt="sp" />
           </div>
           <div className="lol3">
-            <img
-              src={require("../Images/condor.gif").default}
-              alt="sp"
-            />
+            <img src={require("../Images/condor.gif").default} alt="sp" />
           </div>
           <div className="lol4">
-            <img
-              src={require("../Images/davide.jpg").default}
-              alt="sp"
-            />
+            <img src={require("../Images/davide.jpg").default} alt="sp" />
           </div>
           <div className="lol5">
-            <img
-              src={require("../Images/laparc.jpg").default}
-              alt="sp"
-            />
+            <img src={require("../Images/laparc.jpg").default} alt="sp" />
           </div>
           <div className="lol6">
-            <img
-              src={require("../Images/marcoser.jpg").default}
-              alt="sp"
-            />
+            <img src={require("../Images/marcoser.jpg").default} alt="sp" />
           </div>
           <div className="lol7">
-            <img
-              src={require("../Images/ptg.JPG").default}
-              alt="sp"
-            />
+            <img src={require("../Images/ptg.JPG").default} alt="sp" />
           </div>
           <div className="lol8">
-            <img
-              src={require("../Images/valvi.gif").default}
-              alt="sp"
-            />
+            <img src={require("../Images/valvi.gif").default} alt="sp" />
           </div>
         </div>
       </div>
