@@ -6,7 +6,6 @@ import "./register.scss";
 function Register() {
   return (
     <>
-      <Navbar />
       <div className="register_form">
         <h1>Welcome</h1>
         <img src={require("../Images/icon.png").default} alt="logo" />

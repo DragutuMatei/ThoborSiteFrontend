@@ -4,7 +4,6 @@ import './awards.scss';
 function Awards() {
     return(
         <div className="award_page">
-            <Navbar />
             <div className="award_heading">
             <h1>Awards</h1>
             <hr></hr>
