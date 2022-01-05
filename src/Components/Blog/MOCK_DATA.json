@@ -1,14 +1,62 @@
-[{"id":1, "title":"We won boys !", "description":"When we went to the National Competition we won an award !"},
-{"id":2, "title": "Ah we lost... :(", "description":"We kinda lost, welp..."},
-{"id":3, "title": "Ah we lost... :(", "description":"We kinda lost, welp..."},
-{"id":4, "title": "Ah we lost... :(", "description":"We kinda lost, welp..."},
-{"id":5, "title": "Ah we lost... :(", "description":"We kinda lost, welp..."},
-{"id":6, "title": "Ah we lost... :(", "description":"We kinda lost, welp..."},
-{"id":7, "title": "Ah we lost... :(", "description":"We kinda lost, welp..."},
-{"id":8, "title": "Ah we lost... :(", "description":"We kinda lost, welp..."},
-{"id":9, "title": "Ah we lost... :(", "description":"We kinda lost, welp..."},
-{"id":10, "title": "Ah we lost... :(", "description":"We kinda lost, welp..."},
-{"id":11, "title": "Ah we lost... :(", "description":"We kinda lost, welp..."},
-{"id":12, "title": "Ah we lost... :(", "description":"We kinda lost, welp..."}
-
+[
+  {
+    "id": 1,
+    "title": "We won boys !",
+    "description": "When we went to the National Competition we won an award !"
+  },
+  {
+    "id": 2,
+    "title": "Ah we lost... :(",
+    "description": "We kinda lost, welp..."
+  },
+  {
+    "id": 3,
+    "title": "Ah we lost... :(",
+    "description": "We kinda lost, welp..."
+  },
+  {
+    "id": 4,
+    "title": "Ah we lost... :(",
+    "description": "We kinda lost, welp..."
+  },
+  {
+    "id": 5,
+    "title": "Ah we lost... :(",
+    "description": "We kinda lost, welp..."
+  },
+  {
+    "id": 6,
+    "title": "Ah we lost... :(",
+    "description": "We kinda lost, welp..."
+  },
+  {
+    "id": 7,
+    "title": "Ah we lost... :(",
+    "description": "We kinda lost, welp..."
+  },
+  {
+    "id": 8,
+    "title": "Ah we lost... :(",
+    "description": "We kinda lost, welp..."
+  },
+  {
+    "id": 9,
+    "title": "Ah we lost... :(",
+    "description": "We kinda lost, welp..."
+  },
+  {
+    "id": 10,
+    "title": "Ah we lost... :(",
+    "description": "We kinda lost, welp..."
+  },
+  {
+    "id": 11,
+    "title": "Ah we lost... :(",
+    "description": "We kinda lost, welp..."
+  },
+  {
+    "id": 12,
+    "title": "Ah we lost... :(",
+    "description": "We kinda lost, welp..."
+  }
 ]
