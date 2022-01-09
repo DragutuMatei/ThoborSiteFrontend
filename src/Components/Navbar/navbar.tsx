@@ -10,7 +10,7 @@ function Navbar() {
     <div className="navbar">
       <li>
         <img
-          src={require("../Images/logo.png").default}
+          src={require("../../assets/Images/logo.png").default}
           alt="logo"
           className="logo"
         />

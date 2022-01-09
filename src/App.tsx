@@ -1,11 +1,11 @@
 import { Routes, Route } from "react-router";
 import { BrowserRouter } from "react-router-dom";
-import Awards from "./Components/Awards/awards";
-import Blog from "./Components/Blog/blog";
-import Home from "./Components/Home/Home";
-import Login from "./Components/Login/login";
+import Awards from "./Pages/Awards/awards";
+import Blog from "./Pages/Blog/blog";
+import Home from "./Pages/Home/Home";
+import Login from "./Pages/Login/login";
 import Navbar from "./Components/Navbar/navbar";
-import Register from "./Components/Register/register";
+import Register from "./Pages/Register/register";
 
 function App() {
   return (

@@ -1,13 +1,14 @@
 import './login.scss';
 import { faEye } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
 
 
 function Login() {
     return(
        <div className="login_form">
            <h1>Welcome</h1>
-           <img src={require("../Images/icon.png").default} alt="logo"/>
+           <img src={require("../../assets/Images/robot.png").default}/>
            <form className="text_container">
                     <label>Username/Email</label>
                     <input type="text" name="username" required />
@@ -22,7 +23,7 @@ function Login() {
 
                     <button type="submit"><b>LOGIN</b></button>
 
-                    <span>Don't have an account? <b>Sign up</b></span>
+                    <span><Link to="/register">Don't have an account? <b>Sign up</b></Link></span>
            </form>
        </div>
     );
