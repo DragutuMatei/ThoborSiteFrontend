@@ -4,16 +4,16 @@ import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div className="navbar">
-      <li>
+      <li><Link to="/">
         <img
           src={require("../../assets/Images/logo.png").default}
           alt="logo"
           className="logo"
-        />
+        /></Link>
       </li>
       <li>
         <NavLink end to="/">

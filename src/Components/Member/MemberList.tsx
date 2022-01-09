@@ -1,7 +1,7 @@
 import React from 'react'
 import Member from './Member';
 
-function Member_List() {
+function MemberList() {
     return (
         <div className="members">
         <h2>Echipa THOBOR</h2>
@@ -18,4 +18,4 @@ function Member_List() {
     )
 }
 
-export default Member_List;
+export default MemberList;

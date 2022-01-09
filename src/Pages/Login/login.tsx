@@ -8,7 +8,7 @@ function Login() {
     return(
        <div className="login_form">
            <h1>Welcome</h1>
-           <img src={require("../../assets/Images/robot.png").default}/>
+           <img src={require("../../assets/Images/robot.png").default} alt="robot"/>
            <form className="text_container">
                     <label>Username/Email</label>
                     <input type="text" name="username" required />

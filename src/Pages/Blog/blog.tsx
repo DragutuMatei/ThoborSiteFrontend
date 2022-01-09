@@ -1,8 +1,7 @@
-import Navbar from "../../Components/Navbar/navbar";
 import "./blog.scss";
 import JsonData from "./MOCK_DATA.json";
 import ReactPaginate from "react-paginate";
-import React, { useState } from "react";
+import { useState } from "react";
 
 function Blog() {
   const [users] = useState(JsonData.slice(0, 50));

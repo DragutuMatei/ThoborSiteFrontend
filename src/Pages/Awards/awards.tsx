@@ -1,4 +1,3 @@
-import Navbar from '../../Components/Navbar/navbar';
 import './awards.scss';
 
 function Awards() {
