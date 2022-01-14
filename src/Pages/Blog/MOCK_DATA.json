@@ -2,11 +2,13 @@
   {
     "id": 1,
     "title": "muie",
-    "description": "matei"
+    "description": "matei",
+    "img": "./1.png"
   },
   {
     "id": 2,
     "title": "sugi",
-    "description": "pula"
+    "description": "pula",
+    "img": "./1.png"
   }
 ]

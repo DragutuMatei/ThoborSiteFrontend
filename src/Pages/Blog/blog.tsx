@@ -15,9 +15,14 @@ function Blog() {
     .map((user) => {
       return (
         <div className="blog_post">
-          <h3>{user.id}</h3>
-          <h3>{user.title}</h3>
-          <h3>{user.description}</h3>
+          <div className="blog_post_text">
+            <h3>{user.id}</h3>
+            <h3>{user.title}</h3>
+            <h3>{user.description}</h3>
+          </div>
+          <div className="blog_post_image">
+            <img src={user.img} alt="img" />
+          </div>
         </div>
       );
     });
@@ -30,6 +35,10 @@ function Blog() {
 
   return (
     <div className="blog">
+      <div className="blog_heading">
+        <h1>Blog</h1>
+        <hr></hr>
+      </div>
       <div className="blog_posts">{displayUsers}</div>
       <ReactPaginate
         previousLabel={"Previous"}

@@ -7,7 +7,6 @@
   text-decoration: none;
   position: relative;
   z-index: 2;
-  overflow-x: hidden;
 }
 
 .bg {
@@ -89,11 +88,11 @@
 }
 .sponsors {
   margin-bottom: 5em;
-  .sponsor-list{
+  .sponsor-list {
     display: flex;
     flex-wrap: wrap;
     margin-top: 20px;
-    
+
     .sponsor {
       flex: 0 0 33.333333%;
       display: flex;
@@ -214,3 +213,4 @@
     font-size: 18px;
   }
 }
+
