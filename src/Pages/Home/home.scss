@@ -20,7 +20,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 10em;
+  margin-top: 18em;
+  margin-bottom: 4em;
   animation: slideFromBottom 2.5s ease forwards;
   h3 {
     padding-top: 40px;
@@ -85,50 +86,24 @@
     }
   }
 }
-
-.sponsor {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  gap: 10px 10px;
-  grid-template-areas:
-    "lol lol2 lol3"
-    "lol8 . lol4"
-    "lol7 lol6 lol5";
-  img {
-    width: 300px;
-    height: 150px;
-    border-radius: 15px;
-    object-fit: contain;
-  }
-  padding-top: 15px;
-}
-.lol {
-  grid-area: lol;
-}
-.lol2 {
-  grid-area: lol2;
-}
-.lol3 {
-  grid-area: lol3;
-}
-.lol4 {
-  grid-area: lol4;
-}
-.lol5 {
-  grid-area: lol5;
-}
-.lol6 {
-  grid-area: lol6;
-}
-.lol7 {
-  grid-area: lol7;
-}
-.lol8 {
-  grid-area: lol8;
-}
-
 .sponsors {
+  margin-bottom: 5em;
+  .sponsor-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
+    .sponsor {
+      flex: 0 0 33.333333%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 400px;
+        height: 200px;
+      }
+    }
+  }
   h2 {
     font-size: 48px;
     padding-top: 5em;
@@ -219,5 +194,18 @@
         color: #898ea1;
       }
     }
+  }
+}
+
+.footer {
+  margin-top: 15em;
+  height: 500px;
+  background-image: url("../../assets/Images/footer-new.svg");
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  h6 {
+    z-index: 1000;
   }
 }
