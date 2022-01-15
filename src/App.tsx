@@ -1,11 +1,12 @@
 import { Routes, Route } from "react-router";
 import { BrowserRouter } from "react-router-dom";
-import Awards from "./Pages/Awards/awards";
-import Blog from "./Pages/Blog/blog";
-import Home from "./Pages/Home/Home";
-import Login from "./Pages/Login/login";
-import Navbar from "./Components/Navbar/navbar";
-import Register from "./Pages/Register/register";
+import Home from './pages/home/Home';
+import Blog from './pages/blog/Blog';
+import Awards from './pages/awards/Awards';
+import Login from './pages/login/Login';
+import Register from './pages/register/Register';
+import Navbar from './components/navbar/Navbar';
+import AlumniList from "./pages/alumni/AlumniList";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/awards" element={<Awards />} />
+        <Route path="/alumni" element={<AlumniList />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
       </Routes>

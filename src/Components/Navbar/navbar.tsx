@@ -31,6 +31,11 @@ function Navbar() {
         </NavLink>
       </li>
       <li>
+        <NavLink end to="/alumni">
+          ALUMNI
+        </NavLink>
+      </li>
+      <li>
         <NavLink end to="/login">
           LOGIN
         </NavLink>

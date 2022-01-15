@@ -1,3 +1,5 @@
+import React from "react";
+
 function Whatwedo() {
   return(
   <div className="whatwedo">

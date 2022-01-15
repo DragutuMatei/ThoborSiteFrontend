@@ -1,9 +1,9 @@
 import React from "react";
-import MemberList from "../../Components/Member/MemberList";
-import Sponsors from "../../Components/Sponsors/Sponsors";
-import Whatwedo from "../../Components/Whatwedo/whatwedo";
-import Header from "../../Components/Heading/header";
-import Footer from "../../Components/Footer/Footer";
+import Header from "../../components/heading/Header";
+import Whatwedo from "../../components/whatwedo/Whatwedo";
+import MemberList from "../../components/member/MemberList";
+import Sponsors from "../../components/sponsors/Sponsors";
+import Footer from "../../components/footer/Footer";
 
 function Home() {
   return (
