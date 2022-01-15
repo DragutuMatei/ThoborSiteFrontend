@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "title": "muie",
-    "description": "matei",
+    "title": "title#1",
+    "description": "sall matei",
     "img": "./1.png"
   },
   {
     "id": 2,
-    "title": "sugi",
-    "description": "pula",
+    "title": "nu vreau",
+    "description": "MNU",
     "img": "./1.png"
   }
 ]
