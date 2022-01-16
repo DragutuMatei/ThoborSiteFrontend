@@ -18,6 +18,9 @@
       }
     }
   }
+  .icon {
+    display: none;
+  }
   .logo {
     padding-top: 5px;
     width: 90px;
@@ -37,5 +40,17 @@
   100% {
     transform: translateY(0);
     opacity: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    display: inline-flex;
+    .not-displayed {
+      display: none;
+    }
+    .icon {
+      float: right;
+    }
   }
 }

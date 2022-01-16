@@ -214,3 +214,28 @@
   }
 }
 
+@media (max-width: 600px) {
+  .heading {
+    margin-top: 5em;
+    h1 {
+      font-size: 70px;
+    }
+    h3 {
+      font-size: 26px;
+    }
+  }
+  .whatwedo {
+    animation: slideFromBottom 2.5s ease forwards;
+    h2 {
+      padding-top: 2em;
+      font-size: 26px;
+    }
+  }
+  .sponsors{
+    .sponsor-list{
+      .sponsor{
+        margin-left: 80px;
+      }
+    }
+  }
+}
