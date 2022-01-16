@@ -7,6 +7,7 @@ import Login from './pages/login/Login';
 import Register from './pages/register/Register';
 import Navbar from './components/navbar/Navbar';
 import AlumniList from "./pages/alumni/AlumniList";
+import Contact from "./pages/contact/Contact";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/alumni" element={<AlumniList />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </BrowserRouter>
   );

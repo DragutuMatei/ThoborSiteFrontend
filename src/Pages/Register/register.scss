@@ -5,6 +5,7 @@
     flex-direction: column;
     padding-top: 5em;
     padding-bottom: 10em;
+    overflow-y: hidden;
     animation: slideFromBottom 2s ease forwards;
     img {
         width: 40px;
