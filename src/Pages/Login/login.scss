@@ -1,60 +1,68 @@
-.login_form {
+.login-form {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
-    padding-top: 5em;
-    padding-bottom: 10em;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5em;
     overflow-y: hidden;
-    animation: slideFromBottom 2s ease forwards;
-    img {
+    .login-form-heading {
+      left: 2px;
+      animation: slideFromBottom 2.5s ease forwards;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      img {
+        margin-top: 10px;
         width: 40px;
         height: 40px;
         border-radius: 20px;
     }
-    .text_container {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        .pass {
-            display: flex;
-            flex-direction: row;
-        }
-        label {
-            padding-top: 25px;
-            padding-bottom: 25px;
-        }
-        button {
-            margin-top: 25px;
-            margin-bottom: 25px;
-            border: none;
-            border-radius: 20px;
-            background: linear-gradient(#11998e, #38ef7d);
-            width: 200px;
-            height: 40px;
-            color: white;
-            cursor: pointer;
-        }
-        hr {
-            width: 80%;
-            color: #11998e;
-        }
+    }
+    form {
+      margin-top: 2em;
+      display: flex;
+      flex-direction: column;
+      animation: slideFromBottom 2.5s ease forwards;
+      .inputs-icons {
         input {
-            border: none;
-            outline: none;
-            padding: 5px;
+          position: relative;
+          padding-left: 40px;
         }
+        .icon {
+          position: absolute;
+          left: 30px;
+          top: 28px;
+          z-index: 999;
+        }
+      }
+      a {
+        color: black;
+      }
+      input {
+        border: none;
+        outline: none;
+        padding: 10px;
+        border-bottom: 2px solid black;
+        margin: 20px;
+        transition: 0.35s;
+        &:active,
+        &:focus,
+        &:hover {
+          border-color: rgb(148, 252, 138);
+        }
+      }
+      #submit {
+        border: none;
+        margin-top: 20px;
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 40px;
+        cursor: pointer;
+      }
+      .ad {
+        left: 20px;
+      }
     }
-}
-
-@keyframes slideFromBottom {
-    0% {
-        transform: translateY(100%);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
+  }
+  

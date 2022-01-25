@@ -1,33 +1,31 @@
-import './login.scss';
-import { faEye } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Link } from 'react-router-dom';
-
+import { faEnvelope, faLock } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
+import "./login.scss";
 
 function Login() {
-    return(
-       <div className="login_form">
-           <h1>Welcome</h1>
-           <img src={require("../../assets/Images/robot.png").default} alt="robot"/>
-           <form className="text_container">
-                    <label>Username/Email</label>
-                    <input type="text" name="username" required />
-                    <hr></hr>
+  return (
+    <div className="login-form">
+      <div className="login-form-heading">
+        <h2>Welcome back !</h2>
+        <img src={require("../../assets/Images/robot.png").default} alt="robot"/>
+      </div>
+      <form>
+        <div className="inputs-icons">
+        <span className="icon"><FontAwesomeIcon icon={faEnvelope}/></span>
+        <input type="email" id="email" name="email" placeholder="Email" required />
+        </div>
 
-                    <label>Password</label>
-                    <div className="pass">
-                    <input type="password" name="password" required />
-                    <span><FontAwesomeIcon icon={faEye}/></span>
-                    </div>
-                    <hr></hr>
+        <div className="inputs-icons">
+          <span className="icon"><FontAwesomeIcon icon={faLock}/></span>
+        <input type="password" id="pass" name="pass" placeholder="Password" required />
+        </div>
 
-                    <button type="submit"><b>LOGIN</b></button>
-
-                    <span><Link to="/register">Don't have an account? <b>Sign up</b></Link></span>
-           </form>
-       </div>
-    );
+        <input type="submit" value="Login" id="submit" />
+        <span className="ad"><Link to="/register">Are you new here? <b>Register</b></Link></span>
+      </form>
+    </div>
+  );
 }
-
 
 export default Login;

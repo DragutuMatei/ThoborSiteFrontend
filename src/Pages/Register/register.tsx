@@ -1,47 +1,35 @@
-import { faEye } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faLock } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import "./register.scss";
 
 function Register() {
   return (
-    <>
-      <div className="register_form">
-        <h1>Welcome</h1>
-        <img src={require("../../assets/Images/robot.png").default} alt="logo" />
-        <form className="text_container">
-          <label>Username/Email</label>
-          <input type="text" name="username" required />
-          <hr></hr>
-
-          <label>Password</label>
-          <div className="pass">
-            <input type="password" name="password" required />
-            <span>
-              <FontAwesomeIcon icon={faEye} />
-            </span>
-          </div>
-          <hr></hr>
-
-          <label>Confirm Password</label>
-          <div className="pass">
-            <input type="password" name="password" required />
-            <span>
-              <FontAwesomeIcon icon={faEye} />
-            </span>
-          </div>
-          <hr></hr>
-
-          <button type="submit">
-            <b>SIGN UP</b>
-          </button>
-
-          <span>
-            <Link to="/login">You already have an account ? <b>Log in</b></Link>
-          </span>
-        </form>
+    <div className="register-form">
+      <div className="register-form-heading">
+        <h2>Nice to meet you !</h2>
+        <img src={require("../../assets/Images/robot.png").default} alt="robot"/>
       </div>
-    </>
+      <form>
+        <div className="inputs-icons">
+        <span className="icon"><FontAwesomeIcon icon={faEnvelope}/></span>
+        <input type="email" id="email" name="email" placeholder="Email" required />
+        </div>
+
+        <div className="inputs-icons">
+          <span className="icon"><FontAwesomeIcon icon={faLock}/></span>
+        <input type="password" id="pass" name="pass" placeholder="Password" required />
+        </div>
+
+        <div className="inputs-icons">
+        <span className="icon"><FontAwesomeIcon icon={faLock} /></span>
+        <input type="password" id="pass" name="pass" placeholder="Confirm Password" required />
+        </div>
+
+        <input type="submit" value="Register" id="submit" />
+        <span className="ad"><Link to="/login">Already a member? <b>Log in</b></Link></span>
+      </form>
+    </div>
   );
 }
 
