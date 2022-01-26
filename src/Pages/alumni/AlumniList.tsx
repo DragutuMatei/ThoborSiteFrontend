@@ -1,5 +1,5 @@
 import React from "react";
-import Member from "../../components/member/Member";
+import Member from "../../Components/Member/Member";
 import "./alumniList.scss";
 
 function AlumniList() {
