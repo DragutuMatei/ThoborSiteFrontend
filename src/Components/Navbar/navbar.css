@@ -18,7 +18,8 @@
   padding: 0px 20px 0px 20px;
 }
 
-.navbar li a, .navbar li span {
+.navbar li a,
+.navbar li span {
   text-decoration: none;
   color: black;
   cursor: pointer;
@@ -26,10 +27,15 @@
   transition: 0.5s;
 }
 
-.navbar li a:hover, .navbar li span:hover {
-  color: #fc8a8a;
+.navbar li a:hover,
+.navbar li span:hover {
+  color: #94fc8a;
   -webkit-transform: scale(1.2);
           transform: scale(1.2);
+}
+
+.navbar .icon {
+  display: none;
 }
 
 .navbar .logo {
@@ -67,6 +73,20 @@
     -webkit-transform: translateY(0);
             transform: translateY(0);
     opacity: 1;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
+  .navbar .not-displayed {
+    display: none;
+  }
+  .navbar .icon {
+    float: right;
   }
 }
 /*# sourceMappingURL=navbar.css.map */

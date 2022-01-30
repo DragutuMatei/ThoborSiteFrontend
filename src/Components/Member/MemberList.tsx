@@ -1,6 +1,7 @@
 import React from 'react'
 import Member from './Member';
 
+
 function MemberList() {
     return (
         <div className="members">

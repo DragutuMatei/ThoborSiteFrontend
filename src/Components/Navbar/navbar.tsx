@@ -8,8 +8,8 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 function Navbar() {
   return (
-    <div className="navbar">
-      <li className="displayed">
+    <div className="navbar" id="myNavbar">
+      <li className="not-displayed">
         <Link to="/">
           <img
             src={require("../../assets/Images/logo.png").default}
@@ -63,11 +63,20 @@ function Navbar() {
           <FontAwesomeIcon icon={faInstagram} />
         </a>
       </li>
-      <li className="icon">
+      <li className="icon" onClick={myFunction}>
         <FontAwesomeIcon icon={faBars} />
       </li>
     </div>
   );
+}
+
+function myFunction() {
+  const x = document.getElementById("myNavbar");
+  if(x?.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x!.className = "navbar";
+  }
 }
 
 export default Navbar;

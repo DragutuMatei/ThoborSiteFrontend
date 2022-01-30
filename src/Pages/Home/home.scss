@@ -214,28 +214,150 @@
   }
 }
 
-@media (max-width: 600px) {
+@media only screen and (width: 320px) {
   .heading {
-    margin-top: 5em;
-    h1 {
-      font-size: 70px;
-    }
-    h3 {
-      font-size: 26px;
-    }
+    width: 320px;
   }
   .whatwedo {
-    animation: slideFromBottom 2.5s ease forwards;
+    padding-left: 170px;
+  }
+  .members {
     h2 {
-      padding-top: 2em;
-      font-size: 26px;
+      text-align: center;
     }
   }
-  .sponsors{
-    .sponsor-list{
-      .sponsor{
-        margin-left: 80px;
+  .footer {
+    h6 {
+      text-align: center;
+    }
+  }
+  .contact-form {
+    form {
+      .text-email {
+        input {
+          padding: 0;
+          margin: 10px;
+        }
       }
     }
+  }
+  .blog {
+    .blog_posts {
+      .blog_post {
+        flex: 1 0 40%;
+      }
+    }
+  }
+  .award_page {
+    .awards {
+      .award-left {
+        flex: 1 0 50%;
+      }
+      .award-right {
+        flex: 1 0 50%;
+      }
+    }
+  }
+  .sponsors {
+    h4 {
+      text-align: center;
+    }
+    .sponsor-list {
+      margin-left: 10px;
+      .sponsor {
+        img {
+          width: 300px;
+          height: 150px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  .navbar {
+    display: inline-flex;
+    z-index: 100000;
+    .not-displayed {
+      display: none;
+    }
+    .icon {
+      display: flex;
+      float: right;
+      margin: 20px;
+      margin-top: 2em;
+    }
+  }
+  .heading {
+    h1 {
+      font-size: 35px;
+    }
+    h3 {
+      font-size: 15px;
+    }
+    margin-top: 3em;
+  }
+}
+
+@media only screen and (width: 768px) {
+  .navbar {
+    display: inline-flex;
+    z-index: 100000;
+    .not-displayed {
+      display: none;
+    }
+    .icon {
+      display: flex;
+      float: right;
+      margin: 20px;
+      margin-top: 2em;
+    }
+  }
+  .heading {
+    margin-top: 40px;
+    h1 {
+      font-size: 45px;
+    }
+    h3 {
+      font-size: 22px;
+    }
+  }
+  .sponsors {
+    h4 {
+      margin-left: 10px;
+    }
+    .sponsor-list {
+      .sponsor {
+        flex: 1 0 33.333333%;
+      }
+    }
+  }
+}
+
+@media only screen and (width: 1024px) {
+  .heading {
+    margin-top: 10em;
+  }
+  .sponsors {
+    .sponsor-list {
+      .sponsor {
+        flex: 1 0 33.333333%;
+      }
+    }
+  }
+}
+
+@media only screen and (width: 1440px) {
+  .heading {
+    margin-top: 17em;
+  }
+}
+
+@media only screen and (width: 2560px) {
+  .heading {
+    margin-top: 35em;
+  }
+  .whatwedo {
+    margin-top: 20em;
   }
 }

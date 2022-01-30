@@ -42,15 +42,3 @@
     opacity: 1;
   }
 }
-
-@media (max-width: 600px) {
-  .navbar {
-    display: inline-flex;
-    .not-displayed {
-      display: none;
-    }
-    .icon {
-      float: right;
-    }
-  }
-}
