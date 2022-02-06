@@ -2,37 +2,13 @@
   {
     "id": 1,
     "title": "title#1",
-    "description": "sall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall matei",
+    "description": "nunununu",
     "img": "../Images/1.png"
   },
   {
     "id": 2,
     "title": "nu vreau",
-    "description": "nu vreaunu vreaunu vreaunu vreaunu vreaunu vreaunu vreaunu vreaunu vreaunu vreaunu vreaunu vreaunu vreaunu vreaunu vreaunu vreaunu vreaunu vreaunu vreaunu vreaunu vreaunu vreaunu vreaunu vreaunu vreaunu vreaunu vreau",
+    "description": "nunununu",
     "img": "../Images/2.png"
-  },
-  {
-    "id": 1,
-    "title": "title#1",
-    "description": "sall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall matei",
-    "img": "../Images/1.png"
-  },
-  {
-    "id": 1,
-    "title": "title#1",
-    "description": "sall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall matei",
-    "img": "../Images/1.png"
-  },
-  {
-    "id": 1,
-    "title": "title#1",
-    "description": "sall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall matei",
-    "img": "../Images/1.png"
-  },
-  {
-    "id": 1,
-    "title": "title#1",
-    "description": "sall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall mateisall matei",
-    "img": "../Images/1.png"
-  }
+  } 
 ]

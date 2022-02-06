@@ -35,6 +35,7 @@ function Blog() {
 
   return (
     <div className="blog">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
       <div className="blog_heading">
         <h1>Blog</h1>
         <hr></hr>
