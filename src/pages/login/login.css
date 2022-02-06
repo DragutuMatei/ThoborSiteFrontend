@@ -1,0 +1,100 @@
+.login-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5em;
+  overflow-y: hidden;
+}
+
+.login-form .login-form-heading {
+  left: 2px;
+  -webkit-animation: slideFromBottom 2.5s ease forwards;
+          animation: slideFromBottom 2.5s ease forwards;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login-form .login-form-heading img {
+  margin-top: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.login-form form {
+  margin-top: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-animation: slideFromBottom 2.5s ease forwards;
+          animation: slideFromBottom 2.5s ease forwards;
+}
+
+.login-form form .inputs-icons input {
+  position: relative;
+  padding-left: 40px;
+}
+
+.login-form form .inputs-icons .icon {
+  position: absolute;
+  left: 30px;
+  top: 28px;
+  z-index: 999;
+}
+
+.login-form form a {
+  color: black;
+}
+
+.login-form form input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-bottom: 2px solid black;
+  margin: 20px;
+  -webkit-transition: 0.35s;
+  transition: 0.35s;
+}
+
+.login-form form input:active, .login-form form input:focus, .login-form form input:hover {
+  border-color: #94fc8a;
+}
+
+.login-form form #submit {
+  border: none;
+  margin-top: 20px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.login-form form .ad {
+  left: 20px;
+}
+/*# sourceMappingURL=login.css.map */

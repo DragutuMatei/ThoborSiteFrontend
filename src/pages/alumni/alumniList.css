@@ -1,0 +1,132 @@
+.alumni-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 5em;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-animation: slideFromBottom 2.5s ease forwards;
+          animation: slideFromBottom 2.5s ease forwards;
+}
+
+.alumni-list h2 {
+  font-size: 48px;
+}
+
+.alumni-list h3 {
+  padding: 15px;
+  font-size: 24px;
+}
+
+.alumni-list hr {
+  margin-top: 1em;
+  width: 25%;
+  color: #2dee2d;
+}
+
+.alumni-list img {
+  width: 100px;
+  height: 100px;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+}
+
+.alumni-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.alumni-list ul li {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33.333333%;
+          flex: 0 0 33.333333%;
+  padding: 20px;
+}
+
+.alumni-list ul li h4 {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.alumni-list ul li h5 {
+  padding: 4px;
+  font-size: 16px;
+  color: #898ea1;
+}
+
+.alumni-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-animation: slideFromBottom 2.5s ease forwards;
+          animation: slideFromBottom 2.5s ease forwards;
+  padding-top: 100px;
+}
+
+.alumni-heading hr {
+  width: 5%;
+}
+
+.alumni-heading h2 {
+  font-size: 48px;
+}
+
+@-webkit-keyframes slideFromBottom {
+  0% {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideFromBottom {
+  0% {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=alumniList.css.map */
