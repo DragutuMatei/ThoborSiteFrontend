@@ -18,36 +18,37 @@ function Navbar() {
           />
         </Link>
       </li>
-      <li className="not-displayed">
+      <li className="not-displayed" onClick={myFunction}>
         <NavLink end to="/">
           HOME
         </NavLink>
       </li>
-      <li className="not-displayed">
+      <li className="not-displayed" onClick={myFunction}>
         <NavLink end to="/blog">
           BLOG
         </NavLink>
       </li>
-      <li className="not-displayed">
+      <li className="not-displayed" onClick={myFunction}>
         <NavLink end to="/awards">
           AWARDS
         </NavLink>
       </li>
-      <li className="not-displayed">
+      <li className="not-displayed" onClick={myFunction}>
         <NavLink end to="/alumni">
           ALUMNI
         </NavLink>
       </li>
-      <li className="not-displayed">
+      <li className="not-displayed" onClick={myFunction}>
         <NavLink end to="/login">
           LOGIN
         </NavLink>
       </li>
-      <li className="not-displayed">
+      <li className="not-displayed" onClick={myFunction}>
         <NavLink end to="/register">
           REGISTER
         </NavLink>
       </li>
+      <div className="links">
       <li className="not-displayed">
         <a href="https://www.youtube.com/channel/UCoUzT42Ce6f_11ICDef3svA">
           <FontAwesomeIcon icon={faYoutube} />
@@ -63,6 +64,7 @@ function Navbar() {
           <FontAwesomeIcon icon={faInstagram} />
         </a>
       </li>
+      </div>
       <li className="icon" onClick={myFunction}>
         <FontAwesomeIcon icon={faBars} />
       </li>

@@ -18,6 +18,10 @@
       }
     }
   }
+  .links {
+    display: flex;
+    flex-direction: row;
+  }
   .icon {
     display: none;
   }
