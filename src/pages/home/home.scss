@@ -497,8 +497,8 @@
     .icon {
       display: flex;
       float: right;
-      margin-bottom: 1em;
-      margin-top: 3em;
+      padding-bottom: 1em;
+      padding-top: 1em;
     }
   }
   .heading {
@@ -533,9 +533,6 @@
 }
 
 @media only screen and (width: 1024px) {
-  .heading {
-    margin-top: 10em;
-  }
   .sponsors {
     .sponsor-list {
       .sponsor {
@@ -546,15 +543,10 @@
 }
 
 @media only screen and (width: 1440px) {
-  .heading {
-    margin-top: 17em;
-  }
+
 }
 
 @media only screen and (width: 2560px) {
-  .heading {
-    margin-top: 35em;
-  }
   .whatwedo {
     margin-top: 20em;
   }
