@@ -229,6 +229,7 @@ hr {
     flex-direction: column;
     align-items: center;
     width: 50%;
+    margin-top: 70px;
     svg {
       font-size: 20px;
       margin-bottom: 20px;
@@ -247,14 +248,16 @@ hr {
     width: 50%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
     h2 {
-      padding: 30px;
+      margin-bottom: 30px;
       font-weight: bold;
       font-family: 'Space Mono', monospace;
     }
     a {
       text-decoration: none;
-      padding: 0px 0px 10px 30px;
+      margin-bottom: 20px;
       color: black;
     }
   }

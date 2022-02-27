@@ -16,6 +16,7 @@ function Footer() {
         </button>
       </NavLink> */}
       <div className="icon-list">
+        <img src={require("../../assets/Images/logo.png").default} alt="ferikire"/>
         <a href="https://www.youtube.com/channel/UCoUzT42Ce6f_11ICDef3svA">
         <FontAwesomeIcon icon={faYoutube} />
         </a>
@@ -45,7 +46,7 @@ function Footer() {
           </span>
         </NavLink>
       </div>
-]    </div>
+     </div>
   );
 }
 
