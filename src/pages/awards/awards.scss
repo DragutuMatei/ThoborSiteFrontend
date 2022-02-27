@@ -5,7 +5,7 @@
         align-items: center;
         justify-content: center;
         padding-top: 5em;
-        animation: slideFromBottom 2.5s ease forwards;
+        animation: slideFromBottom 1.5s ease forwards;
         hr {
             position: absolute;
             z-index: 123412;
@@ -53,7 +53,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    animation: slideFromBottom 2.5s ease forwards;
+    animation: slideFromBottom 1.5s ease forwards;
 
     h1 {
         font-size: 48px;

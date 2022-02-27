@@ -6,6 +6,7 @@ import Blog from "./pages/blog/Blog";
 import Awards from "./pages/awards/Awards";
 import AlumniList from "./pages/alumni/AlumniList";
 import Contact from "./pages/contact/Contact";
+import About from "./pages/about/About";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/awards" element={<Awards />} />
         <Route path="/alumni" element={<AlumniList />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
       </Routes>
     </BrowserRouter>
   );

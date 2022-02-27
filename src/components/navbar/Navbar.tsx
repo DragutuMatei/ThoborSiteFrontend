@@ -36,6 +36,16 @@ function Navbar() {
           ALUMNI
         </NavLink>
       </li>
+      <li className="not-displayed" onClick={myFunction}>
+        <NavLink end to="/about">
+          ABOUT
+        </NavLink>
+      </li>
+      <li className="not-displayed" onClick={myFunction}>
+        <NavLink end to="/contact">
+          CONTACT
+        </NavLink>
+      </li>
       </div>
       <li className="icon" onClick={myFunction}>
         <FontAwesomeIcon icon={faBars} />
