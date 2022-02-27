@@ -9,6 +9,7 @@ function Awards() {
       </div>
       <div className="awards">
         <ul>
+          <hr></hr>
           <li className="award-left">
             <img
               src={require("../../assets/Images/1.png").default}

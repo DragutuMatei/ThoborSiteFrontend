@@ -8,10 +8,12 @@
   animation: slideFromBottom 2.5s ease forwards;
   h2 {
     font-size: 48px;
+    font-family: 'Space Mono', monospace;
   }
   h3 {
     padding: 15px;
     font-size: 24px;
+    font-family: 'Space Mono', monospace;
   }
   hr {
     margin-top: 1em;
@@ -37,6 +39,7 @@
         font-size: 18px;
         font-weight: bold;
         padding: 10px;
+        font-family: 'Space Mono', monospace;
       }
       h5 {
         padding: 4px;
@@ -59,6 +62,7 @@
     }
     h2 {
         font-size: 48px;
+        font-family: 'Space Mono', monospace;
     }
     padding-top: 100px;
 }

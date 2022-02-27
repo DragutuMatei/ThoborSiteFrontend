@@ -1,8 +1,5 @@
 import "./navbar.scss";
 import { NavLink } from "react-router-dom";
-import { faYoutube } from "@fortawesome/free-brands-svg-icons";
-import { faFacebook } from "@fortawesome/free-brands-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
@@ -18,6 +15,7 @@ function Navbar() {
           />
         </Link>
       </li>
+      <div className="nothing">
       <li className="not-displayed" onClick={myFunction}>
         <NavLink end to="/">
           HOME
@@ -37,32 +35,6 @@ function Navbar() {
         <NavLink end to="/alumni">
           ALUMNI
         </NavLink>
-      </li>
-      <li className="not-displayed" onClick={myFunction}>
-        <NavLink end to="/login">
-          LOGIN
-        </NavLink>
-      </li>
-      <li className="not-displayed" onClick={myFunction}>
-        <NavLink end to="/register">
-          REGISTER
-        </NavLink>
-      </li>
-      <div className="links">
-      <li className="not-displayed">
-        <a href="https://www.youtube.com/channel/UCoUzT42Ce6f_11ICDef3svA">
-          <FontAwesomeIcon icon={faYoutube} />
-        </a>
-      </li>
-      <li className="not-displayed">
-        <a href="https://ro-ro.facebook.com/ThoborCNCH/">
-          <FontAwesomeIcon icon={faFacebook} />
-        </a>
-      </li>
-      <li className="not-displayed">
-        <a href="https://www.instagram.com/thoborcnch/">
-          <FontAwesomeIcon icon={faInstagram} />
-        </a>
       </li>
       </div>
       <li className="icon" onClick={myFunction}>
