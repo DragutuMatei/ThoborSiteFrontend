@@ -101,6 +101,7 @@
       align-items: center;
       object-fit: cover;
       img {
+        object-fit: contain;
         width: 400px;
         height: 200px;
         margin: 0px;
