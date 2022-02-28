@@ -5,9 +5,15 @@
         align-items: center;
         justify-content: center;
         padding-top: 5em;
-        animation: slideFromBottom 2.5s ease forwards;
+        animation: slideFromBottom 1.5s ease forwards;
+        hr {
+            position: absolute;
+            z-index: 123412;
+            height: 100vh;
+            width: 7px;
+        }
         li {
-            flex: 0 0 50%;
+            flex: 1 0 50%;
             display: flex;
             flex-direction: row-reverse;
             overflow: hidden;
@@ -27,6 +33,7 @@
                 padding-right: 20px;
                 h3 {
                     font-size: 28px;
+                    font-family: 'Space Mono', monospace;
                 }
                 h4 {
                     font-size: 20px;
@@ -46,12 +53,13 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    animation: slideFromBottom 2.5s ease forwards;
+    animation: slideFromBottom 1.5s ease forwards;
 
     h1 {
         font-size: 48px;
         padding-top: 100px;
         text-align: center;
+        font-family: 'Space Mono', monospace;
     }
     hr {
         width: 5%;

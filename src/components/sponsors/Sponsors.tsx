@@ -2,7 +2,7 @@ import React from "react";
 
 function Sponsors() {
   return (
-    <div className="sponsors">
+    <div className="sponsors" id="sponsors">
       <h2>Sponsors</h2>
       <hr></hr>
       <h4>We traveled and spread the word with them.</h4>

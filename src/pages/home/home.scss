@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +17,12 @@
   z-index: 1;
 }
 
+hr {
+  background-color: black;
+  border: none;
+  border-color: black;
+}
+
 .heading {
   background-image: url('./logos.svg');
   display: flex;
@@ -22,8 +30,8 @@
   align-items: center;
   justify-content: center;
   padding-top: 18em;
-  padding-bottom: 19em;
-  animation: slideFromBottom 2.5s ease forwards;
+  padding-bottom: 16em;
+  animation: slideFromBottom 1.5s ease forwards;
   h3 {
     padding-top: 40px;
     font-size: 36px;
@@ -32,6 +40,7 @@
   h1 {
     font-size: 118px;
     color: black;
+    font-family: 'Space Mono', monospace;
   }
 }
 
@@ -55,6 +64,7 @@
   padding-right: 200px;
   h2 {
     font-size: 48px;
+    font-family: 'Space Mono', monospace;
     padding-top: 5em;
     padding-bottom: 15px;
   }
@@ -83,6 +93,7 @@
       h3 {
         font-weight: bold;
         padding-bottom: 10px;
+        font-family: 'Space Mono', monospace;
       }
     }
   }
@@ -113,6 +124,7 @@
     font-size: 48px;
     padding-top: 5em;
     padding-bottom: 15px;
+    font-family: 'Space Mono', monospace; 
   }
   h4 {
     font-size: 24px;
@@ -163,6 +175,7 @@
   flex-wrap: wrap;
   h2 {
     font-size: 48px;
+    font-family: 'Space Mono', monospace;
   }
   h3 {
     padding: 15px;
@@ -191,6 +204,7 @@
       h4 {
         font-size: 18px;
         font-weight: bold;
+        font-family: 'Space Mono', monospace;
         padding: 10px;
       }
       h5 {
@@ -204,16 +218,49 @@
 
 .footer {
   margin-top: 15em;
-  height: 500px;
+  height: 600px;
   background-image: url("../../assets/Images/footer-new.svg");
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
-  h6 {
-    z-index: 1000;
-    padding: 15px;
-    font-size: 18px;
+  width: 100%;
+  .icon-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-top: 70px;
+    svg {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: black;
+    }
+    justify-content: center;
+    hr {
+      height: 50px;
+      border: none;
+      border-color: black;
+      background-color: black;
+      width: 2px;
+    }
+  }
+  .section-list {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    h2 {
+      margin-bottom: 30px;
+      font-weight: bold;
+      font-family: 'Space Mono', monospace;
+    }
+    a {
+      text-decoration: none;
+      margin-bottom: 20px;
+      color: black;
+    }
   }
 }
 

@@ -30,7 +30,7 @@
   justify-content: center;
   flex-wrap: wrap;
   padding-top: 10em;
-  animation: slideFromBottom 2s ease forwards;
+  animation: slideFromBottom 1s ease forwards;
   .blog_post {
     flex: 0 0 40%;
     height: 300px;
@@ -62,11 +62,12 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  animation: slideFromBottom 2.5s ease forwards;
+  animation: slideFromBottom 1.5s ease forwards;
   h1 {
     font-size: 48px;
     padding-top: 100px;
     text-align: center;
+    font-family: 'Space Mono', monospace; 
   }
   hr {
     width: 5%;

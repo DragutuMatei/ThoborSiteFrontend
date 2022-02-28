@@ -2,7 +2,7 @@ import React from "react";
 
 function Whatwedo() {
   return(
-  <div className="whatwedo">
+  <div className="whatwedo" id="whatwedo">
     <h2>What We Do</h2>
     <hr></hr>
     <ul>

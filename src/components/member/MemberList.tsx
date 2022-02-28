@@ -4,7 +4,7 @@ import Member from './Member';
 
 function MemberList() {
     return (
-        <div className="members">
+        <div className="members" id="members">
         <h2>Echipa THOBOR</h2>
         <h3>Sezonul 2021-2022</h3>
         <hr></hr>
