@@ -264,9 +264,12 @@ hr {
   }
 }
 
+/////////////////////// RESPONSIVE //////////////////////
 
 
-@media only screen and (width: 320px) {
+///NAVBAR///
+
+@media only screen and (max-width: 600px) {
   .navbar.responsive {
     animation: navbarAnimation 1s ease forwards;
     position: absolute;
@@ -276,6 +279,11 @@ hr {
     background-color: white;
     width: 100vw;
     height: 110vh;
+    text-align: center;
+    .nothing {
+      display: flex;
+      flex-direction: column;
+    }
     img {
       display: none;
     }
@@ -286,17 +294,12 @@ hr {
       text-align: left;
     }
   }
-  
-  
   .navbar {
     display: inline-flex;
     z-index: 100000;
     .not-displayed {
       display: none;
-    }
-
-    
-    
+    } 
     .icon {
       display: block;
       float: right;
@@ -304,301 +307,78 @@ hr {
       margin-bottom: 1em;
     }
   }
-  .heading {
-    h1 {
-      font-size: 35px;
-    }
-    h3 {
-      font-size: 15px;
-    }
-  }
-  .whatwedo {
-    h2 {
-      white-space: nowrap;
-    }
-    padding-left: 165px;
-  }
-  .members {
-    h2 {
-      text-align: center;
-    }
-  }
-  .footer {
-    h6 {
-      text-align: center;
-    }
-  }
-  .contact-form {
-    form {
-      .text-email {
-        input {
-          padding: 0;
-          margin: 10px;
-        }
-      }
-    }
-  }
-  .blog {
-    .blog_posts {
-      .blog_post {
-        flex: 1 0 40%;
-        .blog_post_text {
-          display: none;
-        }
-      }
-    }
-  }
-  .award_page {
-    .awards {
-      .award-left {
-        flex: 1 0 50%;
-      }
-      .award-right {
-        flex: 1 0 50%;
-      }
-    }
-  }
-  .sponsors {
-    h4 {
-      text-align: center;
-    }
-    .sponsor-list {
-      margin-left: 10px;
-      .sponsor {
-        img {
-          width: 300px;
-          height: 150px;
-        }
-      }
-    }
+}
+
+////////
+
+
+///HEADING///
+
+.heading{
+  text-align: center;
+  padding-bottom: 11em;
+  h1 {
+    font-size: 60px;
   }
 }
- 
-@media only screen and (min-width: 375px) and (max-width: 424px) {
-  .navbar.responsive {
-    animation: navbarAnimation 1s ease forwards;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    z-index: 123312;
-    background-color: white;
-    width: 100vw;
-    height: 110vh;
-    top: -45px;
-    img {
-      display: none;
-    }
+
+/////////////
+
+///WHATWEDO///
+
+.whatwedo {
+  padding: 0;
+  ul {
     li {
-      display: block;
-      margin: 15px;
-      padding: 0;
-      text-align: left;
+      flex: none;
     }
   }
-  .awards{
-    ul{
-      li {
-        flex: 0 0 80%;
-      }
-    }
-  }
-  .whatwedo {
-    h2 {
-      white-space: nowrap;
-    }
-    padding-right: 180px;
-  }
-  .navbar {
-    display: inline-flex;
-    z-index: 100000;
-    .not-displayed {
-      display: none;
-    }
-    .icon {
-      display: flex;
-      float: right;
-      margin-bottom: 1em;
-      margin-top: 1em;
-    }
-  }
-  .heading {
+}
 
-    margin-top: -7px;
-    h1 {
-      font-size: 35px;
-    }
-    h3 {
-      font-size: 15px;
-    }
-  }
-  .blog{
-    .blog_posts{
-      .blog_post{
-        margin: 40px;
-        flex: 1 0 40%;
-        .blog_post_text{
-          display: none;
-        }
+//////////////
+
+///MEMBERS///
+
+.members {
+  text-align: center;
+}
+
+/////////////
+
+///SPONSORS///
+
+.sponsors {
+  text-align: center;
+  .sponsor-list{
+    .sponsor{
+      img {
+        object-fit: scale-down;
       }
     }
   }
 }
 
-@media only screen and (min-width: 425px) and (max-width: 767px) {
-  .navbar.responsive {
-    animation: navbarAnimation 1s ease forwards;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    z-index: 123312;
-    background-color: white;
-    width: 100vw;
-    height: 110vh;
-    top: -45px;
-    img {
-      display: none;
-    }
-    li {
-      display: block;
-      margin: 15px;
-      padding: 0;
-      text-align: left;
+//////////////
+
+///FOOTER///
+
+.footer{
+  .icon-list {
+    img{
+      width: 155px;
+      height: 65px;
     }
   }
-  .awards {
-    ul {
-      li {
-        flex: 0 0 70%;
-      }
-    }
-  }
-  .navbar {
-    display: inline-flex;
-    z-index: 100000;
-    .not-displayed {
-      display: none;
-    }
-    .icon {
-      display: flex;
-      float: right;
-      margin-bottom: 1em;
-      margin-top: 1em;
-    }
-  }
-  .heading {
-    margin-top: -7px;
-    h1 {
-      font-size: 35px;
-    }
-    h3 {
-      font-size: 15px;
-    }
-  }
-  .blog{
-    .blog_posts{
-      .blog_post{
-        margin: 65px;
-        flex: 1 0 40%;
-        .blog_post_text{
-          display: none;
-        }
-      }
-    }
+  .section-list{
+    text-align: center;
   }
 }
 
+////////////
 
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .navbar.responsive {
-    animation: navbarAnimation 1s ease forwards;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    z-index: 123312;
-    background-color: white;
-    width: 100vw;
-    height: 110vh;
-    top: -45px;
-    img {
-      display: none;
-    }
-    li {
-      display: block;
-      margin: 15px;
-      padding: 0;
-      text-align: left;
-    }
-  }
-  .awards {
-    ul {
-      li {
-        flex: 0 0 80%;
-      }
-    }
-  }
-  .navbar {
-    display: inline-flex;
-    z-index: 100000;
-    .not-displayed {
-      display: none;
-    }
-    .icon {
-      display: flex;
-      float: right;
-      padding-bottom: 1em;
-      padding-top: 1em;
-    }
-  }
-  .heading {
-    h1 {
-      font-size: 45px;
-    }
-    h3 {
-      font-size: 22px;
-    }
-  }
-  .sponsors {
-    h4 {
-      margin-left: 10px;
-    }
-    .sponsor-list {
-      .sponsor {
-        flex: 1 0 33.333333%;
-      }
-    }
-  }
-  .blog{
-    .blog_posts{
-      .blog_post{
-        margin: 40px;
-        flex: 0 0 40%;
-        .blog_post_text{
-          display: none;
-        }
-      }
-    }
-  }
-}
+//////////////////////////////////////////////////////////
 
-@media only screen and (width: 1024px) {
-  .sponsors {
-    .sponsor-list {
-      .sponsor {
-        flex: 1 0 33.333333%;
-      }
-    }
-  }
-}
 
-@media only screen and (width: 1440px) {
-
-}
-
-@media only screen and (width: 2560px) {
-  .whatwedo {
-    margin-top: 20em;
-  }
-}
 
 
 @keyframes navbarAnimation {
