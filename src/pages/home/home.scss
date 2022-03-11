@@ -449,8 +449,8 @@ hr {
 
   ///BLOG///
 
-  .blog_posts{
-    .blog_post{
+  .blog_posts {
+    .blog_post {
       flex: 1 0 40%;
       margin: 15px;
     }
@@ -458,11 +458,10 @@ hr {
 
   //////////
 
-
   ///AWARDS///
-  .awards{
-    ul{
-      hr{
+  .awards {
+    ul {
+      hr {
         display: none;
       }
     }
@@ -470,10 +469,27 @@ hr {
   ////////////
 }
 
-@media only screen and (min-width: 768px){
-  .heading{
+@media only screen and (min-width: 768px) {
+  ///HEADING///
+  .heading {
     padding-top: 20em;
   }
+  /////////////
+}
+
+@media only screen and (min-width: 1200px) {
+  ///AWARDS///
+
+  .awards {
+    ul {
+      hr {
+        display: block;
+        height: 108%;
+      }
+    }
+  }
+
+  ////////////
 }
 
 //////////////////////////////////////////////////////////
