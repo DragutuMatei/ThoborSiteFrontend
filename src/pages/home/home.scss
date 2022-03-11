@@ -307,7 +307,7 @@ hr {
       margin-bottom: 1em;
     }
   }
-}
+
 
 ////////
 
@@ -376,6 +376,45 @@ hr {
 
 ////////////
 
+///BLOG///
+
+.blog_posts {
+  .blog_post {
+    flex: 1 0 185%;
+    flex-direction: column;
+    border-radius: none;
+  }
+}
+
+//////////
+
+///AWARDS///
+
+.awards{
+  ul{
+    hr{
+      display: none;
+    }
+  }
+}
+
+////////////
+
+///CONTACT///
+
+.contact-form {
+  form {
+    .text-email{
+      input {
+        margin: 8px;
+        padding: 5px;
+      }
+    }
+  }
+}
+
+/////////////
+}
 //////////////////////////////////////////////////////////
 
 
