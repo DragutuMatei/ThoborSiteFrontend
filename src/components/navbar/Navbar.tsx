@@ -9,7 +9,7 @@ function Navbar() {
       <li className="not-displayed">
         <Link to="/">
           <img
-            src={require("../../assets/Images/logo.png").default}
+            src={require("../../assets/Images/logo-thobor.png").default}
             alt="logo"
             className="logo"
           />

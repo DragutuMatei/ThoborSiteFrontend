@@ -245,6 +245,10 @@ hr {
     align-items: center;
     width: 50%;
     margin-top: 70px;
+    img {
+      width: 255px;
+      height: 250px;
+    }
     svg {
       font-size: 20px;
       margin-bottom: 20px;
@@ -469,8 +473,9 @@ hr {
 
   .footer {
     .icon-list {
+      margin-top: 40px;
       img {
-        height: 107px;
+        height: 150px;
         width: 255px;
       }
     }
