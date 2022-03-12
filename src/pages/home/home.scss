@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster&family=Pacifico&family=Sansita+Swashed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Belleza&family=Caudex&family=DM+Sans&family=Federo&family=Italiana&family=Krona+One&family=Space+Grotesk&display=swap");
 
 * {
   margin: 0;
@@ -40,7 +42,19 @@ hr {
   h1 {
     font-size: 118px;
     color: black;
-    font-family: "Space Mono", monospace;
+    font-family: Helvetica, sans-serif;
+    //font-family: "Space Mono";
+    //font-family: 'Fredoka One', cursive;
+    //font-family: 'Lobster', cursive;
+    //font-family: 'Pacifico', cursive;
+    //font-family: 'Sansita Swashed', cursive;
+    // font-family: "Belleza", sans-serif;
+    // font-family: "Caudex", serif;
+    // font-family: "DM Sans", sans-serif;
+    // font-family: "Federo", sans-serif;
+    // font-family: "Italiana", serif;
+    // font-family: "Krona One", sans-serif;
+    // font-family: "Space Grotesk", sans-serif;
   }
 }
 
@@ -235,6 +249,17 @@ hr {
       font-size: 20px;
       margin-bottom: 20px;
       color: black;
+      transition: .15s;
+    }
+    a{
+      transition: .1s;
+      &:hover{
+        transform: translateY(-10%);
+        svg{
+          font-size: 30px;
+          color: white;
+        }
+      }
     }
     justify-content: center;
     hr {
@@ -253,13 +278,19 @@ hr {
     margin-top: 70px;
     h2 {
       margin-bottom: 30px;
-      font-weight: bold;
+      font-size: 30px;
       font-family: "Space Mono", monospace;
     }
     a {
       text-decoration: none;
       margin-bottom: 20px;
       color: black;
+      transition: .1s;
+      &:hover{
+        font-weight: bold;
+        font-size: 20px;
+        transform: translateY(-20%);
+      }
     }
   }
 }
