@@ -38,7 +38,7 @@ function AlumniList() {
             departamente={["Programming", "Marketing & PR"]}
           />
           <Member
-            nume="Dragutu Matei"
+            nume="Uratul Matei"
             imagPath={"/Images/matei.jpg"}
             departamente={["Programming", "Marketing & PR"]}
           />
