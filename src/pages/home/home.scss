@@ -2,6 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster&family=Pacifico&family=Sansita+Swashed&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Belleza&family=Caudex&family=DM+Sans&family=Federo&family=Italiana&family=Krona+One&family=Space+Grotesk&display=swap");
 
+@font-face {
+  font-family: 'Municipal';
+  src: url('../../assets/Fonts/Municipal.ttf');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -42,7 +47,7 @@ hr {
   h1 {
     font-size: 118px;
     color: black;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Municipal', sans-serif;
     //font-family: "Space Mono";
     //font-family: 'Fredoka One', cursive;
     //font-family: 'Lobster', cursive;
@@ -446,6 +451,30 @@ hr {
   }
 
   /////////////
+
+  ///ABOUT///
+
+  .about-page{
+    .about-info{
+      .about1{
+        img{
+          display: none;
+        }
+      }
+      .about2{
+        img{
+          display: none;
+        }
+      }
+      .about_3{
+        img{
+          display: none;
+        }
+      }
+    }
+  }
+
+  ///////////
 }
 
 @media only screen and (min-width: 600px) {

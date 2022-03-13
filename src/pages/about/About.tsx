@@ -105,7 +105,7 @@ function About() {
           </div>
         </div>
         <div className="about_4">
-          <h1>Continuăm să scriem poveste...</h1>
+          <h1>Continuăm să scriem poveste..<span>.</span></h1>
         </div>
       </div>
     </div>

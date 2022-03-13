@@ -94,6 +94,23 @@
         font-size: 90px;
         letter-spacing: 3px;
       }
+      span {
+        display: inline-block;
+        height: 70px;
+        width: 40px;
+        background-color: black;
+        animation: blink .8s linear infinite alternate;
+      }
     }
+  }
+}
+
+
+@keyframes blink {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
