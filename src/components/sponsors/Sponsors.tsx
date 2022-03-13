@@ -5,7 +5,7 @@ function Sponsors() {
     <div className="sponsors" id="sponsors">
       <h2>Sponsors</h2>
       <hr></hr>
-      <h4>We traveled and spread the word with them.</h4>
+      <h4>Oamenii care ne fac posibil visul</h4>
       <div className="sponsor-list">
         <div className="sponsor">
           <img
