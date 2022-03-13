@@ -91,6 +91,22 @@ function About() {
             </p>
           </div>
         </div>
+        <div className="about_3">
+          <img
+            src={require("../../assets/Images/about_3.svg").default}
+            alt="about_3"
+          />
+          <div className="scris">
+            <h3>Sezonul 5 (2021-2022)</h3>
+            <p>
+              Am ajuns in prezent.Cu alti oameni dar acelasi spirit echipa
+              THOBOR va continua sa exceleze in robotica romaneasca.
+            </p>
+          </div>
+        </div>
+        <div className="about_4">
+          <h1>Continuăm să scriem poveste...</h1>
+        </div>
       </div>
     </div>
   );

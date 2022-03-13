@@ -29,13 +29,33 @@
       height: auto;
     }
     .scris {
+      cursor: default;
       padding-top: 5em;
       padding-bottom: 5em;
       h2 {
+        width: fit-content;
         padding-bottom: 2em;
+        transition: .1s;
+        &:hover{
+          color: green;
+          font-size: 28px;
+        }
       }
       h3 {
+        width: fit-content;
+        transition: .1s;
         padding: 20px;
+        &:hover {
+          color: lightgreen;
+          font-size: 24px;
+        }
+      }
+      b {
+        transition: .1s;
+        &:hover {
+          color:lightgreen;
+          font-size: 18px;
+        }
       }
       p {
         padding: 10px;
@@ -52,6 +72,27 @@
         padding: 0px 20px 0px 20px;
         width: 50vw;
         height: auto;
+      }
+    }
+    .about_3 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 20em;
+      img {
+        width: 70vw;
+        height: auto;
+      }
+    }
+    .about_4 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 20em;
+      padding-bottom: 10em;
+      h1 {
+        font-size: 90px;
+        letter-spacing: 3px;
       }
     }
   }
