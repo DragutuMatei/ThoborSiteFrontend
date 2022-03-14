@@ -13,14 +13,14 @@ function AlumniList() {
       <div className="alumni-list">
         <ul>
           <Member
-            nume="Dragutu Matei"
-            imagPath={"/Images/matei.jpg"}
-            departamente={["Programming", "Marketing & PR"]}
+            nume="Chiscop Robert Adrian"
+            imagPath={"/Images/Robica.JPG"}
+            departamente={["Team Leader", "Mecanica & Proiectare 3D"]}
           />
           <Member
-            nume="Dragutu Matei"
-            imagPath={"/Images/matei.jpg"}
-            departamente={["Programming", "Marketing & PR"]}
+            nume="Oprea Marcello Octavian"
+            imagPath={"/Images/Marcelo.jpg"}
+            departamente={["Marketing & PR"]}
           />
           <Member
             nume="Dragutu Matei"
