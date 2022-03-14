@@ -25,7 +25,7 @@ function MemberList() {
             departamente={["Marketing & PR"]}
           />
           <Member
-            nume="Panaite Cristian-Florin"
+            nume="Panaite Cristian Florin"
             imagPath={"/Images/Cristi.jpg"}
             departamente={["Programming"]}
           />
@@ -35,7 +35,7 @@ function MemberList() {
             departamente={["Programming"]}
           />
           <Member
-            nume="Dragutu Matei"
+            nume="Drăguţu Matei"
             imagPath={"/Images/Osama.jpg"}
             departamente={["Programming", "Marketing & PR"]}
           />
@@ -45,22 +45,22 @@ function MemberList() {
             departamente={["Mecanica & Proiectare 3D"]}
           />
           <Member
-            nume="Bors Alexandru"
+            nume="Borş Alexandru"
             imagPath={"/Images/Bors.jpg"}
             departamente={["Mecanica"]}
           />
           <Member
-            nume="Borsan Claudiu Andrei"
+            nume="Borşan Claudiu Andrei"
             imagPath={"/Images/Claudiu.jpg"}
             departamente={["Driver", "Mecanica & Proiectare 3D"]}
           />
           <Member
-            nume="Mereuta Ionut Claudiu"
+            nume="Mereuţă Ionuţ Claudiu"
             imagPath={"/Images/Mereuta.jpg"}
             departamente={["Driver", "Mecanica & Proiectare 3D"]}
           />
           <Member
-            nume="Popa Amira Catalina"
+            nume="Popa Amira Cătălina"
             imagPath={"/Images/Amira.jpg"}
             departamente={["Jurnal & PR"]}
           />
@@ -75,7 +75,7 @@ function MemberList() {
             departamente={["Mecanica & Proiectare 3D"]}
           />
           <Member
-            nume="Dragan Claudia Maria"
+            nume="Drăgan Claudia Maria"
             imagPath={"/Images/Claudia.jpg"}
             departamente={["Programming"]}
           />
