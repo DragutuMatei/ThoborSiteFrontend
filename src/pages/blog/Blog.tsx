@@ -16,9 +16,9 @@ function Blog() {
       return (
         <div className="blog_post">
           <div className="blog_post_text">
-            <h3>{user.id}</h3>
-            <h3>{user.title}</h3>
-            <h3>{user.description}</h3>
+            <h3 className="date">{user.date}</h3>
+            <h3 className="title">{user.title}</h3>
+            <h3 className="description">{user.description}</h3>
           </div>
           <div className="blog_post_image">
             <img src={user.img} alt="img" />

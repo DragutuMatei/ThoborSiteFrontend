@@ -330,7 +330,7 @@ hr {
       display: block;
       margin: 15px;
       padding: 0;
-      text-align: left;
+      text-align: center;
     }
   }
   .navbar {
@@ -360,6 +360,17 @@ hr {
   }
 
   /////////////
+
+  ///ALUMNI///
+
+  .alumni-list{
+    .alumni{
+      text-align: center;
+      margin-left: 15px;
+    }
+  }
+
+  ////////////
 
   ///WHATWEDO///
 
@@ -456,6 +467,9 @@ hr {
 
   .about-page{
     .about-info{
+      max-width: 100%;
+      overflow: hidden;
+      word-break: break-all;
       .about1{
         img{
           display: none;
@@ -471,10 +485,22 @@ hr {
           display: none;
         }
       }
+      .about_4{
+        h1{
+          font-size: 25px !important;
+          padding: 5px;
+          text-align: center;
+        }
+        span {
+          height: 30px !important;
+          width: 20px !important;
+        }
+      }
     }
   }
 
   ///////////
+
 }
 
 @media only screen and (min-width: 600px) {

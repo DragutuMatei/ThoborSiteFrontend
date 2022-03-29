@@ -1,30 +1,30 @@
 [
   {
-    "id": 1,
-    "title": "title#1",
-    "description": "nunununu",
+    "date": "28 Martie 2022",
+    "title": "salut",
+    "description": "Hai salut ! Ce mai faci bai claudiule ? Cum te simti ce mai faci unde esti",
     "img": "../Images/1.png"
   },
   {
-    "id": 2,
-    "title": "nu vreau",
+    "date": "28 Martie 2022",
+    "title": "cf",
     "description": "nunununu",
     "img": "../Images/2.png"
   },
   {
-    "id": 2,
-    "title": "nu vreau",
+    "date": "28 Martie 2022",
+    "title": "nush",
     "description": "nunununu",
     "img": "../Images/2.png"
   },
   {
-    "id": 2,
-    "title": "nu vreau",
+    "date": "28 Martie 2022",
+    "title": "cf claudiu",
     "description": "nunununu",
     "img": "../Images/2.png"
   },
   {
-    "id": 2,
+    "date": "28 Martie 2022",
     "title": "nu vreau",
     "description": "nunununu",
     "img": "../Images/2.png"

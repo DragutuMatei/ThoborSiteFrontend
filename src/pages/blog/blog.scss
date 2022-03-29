@@ -33,19 +33,37 @@
   animation: slideFromBottom 1s ease forwards;
   .blog_post {
     flex: 0 0 40%;
-    height: 300px;
-    border-radius: 50px;
+    height: auto;
     overflow: hidden;
     border: none;
     margin: 20px;
+    padding-bottom: 5em;
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     justify-content: space-between;
     align-items: center;
     text-align: center;
     .blog_post_text {
       display: flex;
       flex-direction: column;
+      width: auto;
+      flex-wrap: wrap;
+      white-space: nowrap;
+      .date {
+        color: #bbb;
+        padding-top: 20px;
+      }
+      .title{
+        font-size: 36px;
+        padding-top: 10px;
+      }
+      .description{
+        font-size: 18px;
+        padding-top: 10px;
+        white-space: nowrap;
+        width: fit-content;
+        height: auto;
+      }
     }
     .blog_post_image {
         width: 50%;

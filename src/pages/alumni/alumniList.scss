@@ -5,9 +5,6 @@
     align-items: center;
     text-align: center;
     animation: slideFromBottom 1.5s ease forwards;
-    hr{
-        width: 5%;
-    }
     h2 {
         font-size: 48px;
         font-family: 'Space Mono', monospace;
@@ -15,126 +12,40 @@
     padding-top: 100px;
 }
 
-.alumni-list1 {
+.alumni-list {
   display: flex;
   flex-direction: row;
-  width: 100%;
-  .orizontal{
-    width: 50%;
-    .orizontal-item {
-      padding: 30px;
-      display: flex;
-      flex-direction: row;
-      .item-text{
-        h2{
-          text-align: center;
-          padding-bottom: 10px;
-        }
-        h3{
-          text-align: center;
-          padding: 0px 0px 15px 0px;
-        }
-      }
-      img {
-        width: auto;
-        height: 250px;
-        clip-path: circle();
-      }
-    }
-  }
-  .vertical{
-    width: 50%;
+  flex-wrap: wrap;
+  .alumni {
     display: flex;
-    flex-direction: row;
-    .vertical-item{
-      padding: 30px;
-      display: flex;
-      padding-left: 10px;
-      flex-direction: column;
-      .item-text{
-        h2{
-          text-align: center;
-          padding-bottom: 10px;
-          padding-top: 10px;
-        }
-        h3{
-          text-align: center;
-          padding: 0px 0px 15px 0px;
-        }
-        p{
-          text-align: center;
-        }
-      }
-      img {
-        width: auto;
-        height: 250px;
-        clip-path: circle();
-      }
+    flex: 0 0 33.333333%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    transition: .1s;
+    &:hover{  
+      font-size: 18px;
     }
-  }
-}
-
-.item-text {
-  display: flex;
-  flex-direction: column;
-}
-
-
-.alumni-list2 {
-  padding-top: 20em;
-  display: flex;
-  flex-direction: row-reverse;
-  width: 100%;
-  .orizontal{
-    width: 50%;
-    .orizontal-item {
-      padding: 30px;
-      display: flex;
-      flex-direction: row-reverse;
-      .item-text{
-        h2{
-          text-align: center;
-          padding-bottom: 10px;
-        }
-        h3{
-          text-align: center;
-          padding: 0px 0px 15px 0px;
-        }
-      }
-      img {
-        width: auto;
-        height: 250px;
-        clip-path: circle();
-      }
+    img {
+      clip-path: circle();
+      width: 100px;
+      height: auto;
     }
-  }
-  .vertical{
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    .vertical-item{
-      padding: 30px;
-      display: flex;
-      flex-direction: column;
-      .item-text{
-        h2{
-          text-align: center;
-          padding-bottom: 10px;
-          padding-top: 10px;
-        }
-        h3{
-          text-align: center;
-          padding: 0px 0px 15px 0px;
-        }
-        p{
-          text-align: center;
-        }
-      }
-      img {
-        width: auto;
-        height: 250px;
-        clip-path: circle();
-      }
+    h4 {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    h3{
+      padding-top: 10px;
+    }
+    p{
+      padding-top: 20px;
+      padding-bottom: 10em;
+    }
+    hr {
+      width: 50%;
+      height: 1px;
     }
   }
 }
