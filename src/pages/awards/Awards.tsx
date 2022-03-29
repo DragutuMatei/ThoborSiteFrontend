@@ -22,7 +22,7 @@ function Awards() {
           </li>
           <li className="award-right">
             <img
-              src={require("../../assets/Images/2.png").default}
+              src={require("../../assets/Images/1.png").default}
               alt="premiu 1"
             />
             <div className="text">

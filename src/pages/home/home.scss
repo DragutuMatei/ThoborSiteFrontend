@@ -441,9 +441,32 @@ hr {
   ///AWARDS///
 
   .awards {
-    ul {
-      hr {
+    ul{
+      li{
+        flex: 0 0 80%;
+      }
+      hr{
         display: none;
+      }
+      .text{
+        display: none;
+      }
+      .award-left{
+        .text{
+          display: none;
+        }
+        margin: 0;
+        img{
+          width: auto;
+        }
+      }
+      .award-right{
+        .text{
+          display: none;
+        }
+        img{
+          width: auto;
+        }
       }
     }
   }
@@ -475,6 +498,11 @@ hr {
       .about1{
         img{
           display: none;
+        }
+        .scris{
+          h2{
+            padding-left:15px;
+          }
         }
       }
       .about2{
