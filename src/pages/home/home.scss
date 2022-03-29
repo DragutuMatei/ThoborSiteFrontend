@@ -429,8 +429,10 @@ hr {
   .blog_posts {
     .blog_post {
       flex: 1 0 185%;
-      flex-direction: column;
-      border-radius: none;
+      flex-direction: column-reverse;
+      img {
+        border-radius: 20px;
+      }
     }
   }
 

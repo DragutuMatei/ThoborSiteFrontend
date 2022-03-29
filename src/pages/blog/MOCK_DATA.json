@@ -1,32 +1,26 @@
 [
   {
-    "date": "28 Martie 2022",
-    "title": "salut",
-    "description": "Hai salut ! Ce mai faci bai claudiule ? Cum te simti ce mai faci unde esti",
+    "title": "prima",
     "img": "../Images/1.png"
   },
   {
-    "date": "28 Martie 2022",
-    "title": "cf",
-    "description": "nunununu",
-    "img": "../Images/2.png"
+    "title": "a doua",
+    "img": "../Images/1.png"
   },
   {
-    "date": "28 Martie 2022",
-    "title": "nush",
-    "description": "nunununu",
-    "img": "../Images/2.png"
+    "title": "a treia",
+    "img": "../Images/1.png"
   },
   {
-    "date": "28 Martie 2022",
-    "title": "cf claudiu",
-    "description": "nunununu",
-    "img": "../Images/2.png"
+    "title": "a patra",
+    "img": "../Images/1.png"
   },
   {
-    "date": "28 Martie 2022",
-    "title": "nu vreau",
-    "description": "nunununu",
-    "img": "../Images/2.png"
+    "title": "a cincea",
+    "img": "../Images/1.png"
+  },
+  {
+    "title": "a sasea",
+    "img": "../Images/1.png"
   }
 ]
