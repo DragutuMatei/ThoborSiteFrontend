@@ -1,15 +1,17 @@
 .alumni-heading {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    animation: slideFromBottom 1.5s ease forwards;
-    h2 {
-        font-size: 48px;
-        font-family: 'Space Mono', monospace;
-    }
-    padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  animation: slideFromBottom 1.5s ease forwards;
+  h2 {
+    font-size: 48px;
+    font-family: "Space Mono", monospace;
+  }
+  padding-top: 5em;
+  padding-bottom: 5em;
+  
 }
 
 .alumni-list {
@@ -17,6 +19,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   animation: slideFromBottom 1s ease forwards;
+  padding-top: 15em;
+  padding: 0px 90px 0px 90px;
   .alumni {
     display: flex;
     flex: 0 0 33.333333%;
@@ -24,22 +28,29 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
-    transition: .1s;
+    transition: 0.1s;
     img {
       clip-path: circle();
-      width: 100px;
+      width: 400px;
       height: auto;
     }
     h4 {
       padding-top: 10px;
       padding-bottom: 10px;
+      font-size: 12px;
     }
-    h3{
+    h3 {
       padding-top: 10px;
+      font-size: 14px;
+      color: rgb(34, 150, 196);
     }
-    p{
-      padding-top: 20px;
-      padding-bottom: 10em;
+    p {
+      padding-top: 25px;
+      font-size: 20px;
+      padding-bottom: 5em;
+      color: #7a7a7a;
+      text-align: center;
+      text-indent: 20px;
     }
     hr {
       width: 50%;
@@ -47,7 +58,6 @@
     }
   }
 }
-
 
 @keyframes slideFromBottom {
   0% {

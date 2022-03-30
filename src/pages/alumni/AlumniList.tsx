@@ -1,6 +1,6 @@
 import React from "react";
+import Alumni from "./Alumni";
 import "./alumniList.scss";
-
 
 function AlumniList() {
   return (
@@ -9,36 +9,27 @@ function AlumniList() {
         <h2>Alumni</h2>
       </div>
       <div className="alumni-list">
-        <div className="alumni">
-          <img
-            src={require("../../assets/Images/matei.jpg").default}
-            alt="matei"
-          />
-          <h3>Dragutu Matei</h3>
-          <h4>Facultatea de Inginerie</h4>
-          <hr></hr>
-          <p>"Am fost si am plecat"</p>
-        </div>
-        <div className="alumni">
-          <img
-            src={require("../../assets/Images/matei.jpg").default}
-            alt="matei"
-          />
-          <h3>Dragutu Matei</h3>
-          <h4>Facultatea de Inginerie</h4>
-          <hr></hr>
-          <p>"Am fost si am plecat"</p>
-        </div>
-        <div className="alumni">
-          <img
-            src={require("../../assets/Images/matei.jpg").default}
-            alt="matei"
-          />
-          <h3>Dragutu Matei</h3>
-          <h4>Facultatea de Inginerie</h4>
-          <hr></hr>
-          <p>"Am fost si am plecat"</p>
-        </div>
+        <Alumni
+          key={1}
+          nume="Dragutu Matei"
+          imagPath={"/Images/Claudia.jpg"}
+          descriere="Hai sa traiesti."
+          facultate="Facultatea de Inginerie Mecanica si Automatizare"
+        />
+        <Alumni
+          key={2}
+          nume="Dragutu Matei"
+          imagPath={"/Images/Claudia.jpg"}
+          descriere="Hai sa traiesti."
+          facultate="Facultatea de Inginerie Mecanica si Automatizare"
+        />
+        <Alumni
+          key={3}
+          nume="Dragutu Matei"
+          imagPath={"/Images/Claudia.jpg"}
+          descriere="Hai sa traiesti."
+          facultate="Facultatea de Inginerie Mecanica si Automatizare"
+        />
       </div>
     </div>
   );
