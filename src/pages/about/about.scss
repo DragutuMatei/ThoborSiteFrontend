@@ -34,6 +34,7 @@
       padding-bottom: 5em;
       h2 {
         width: fit-content;
+        letter-spacing: 2px;
         padding-bottom: 2em;
         transition: .1s;
         &:hover{
@@ -45,6 +46,7 @@
         width: fit-content;
         transition: .1s;
         padding: 20px;
+        letter-spacing: 1.5px;
         &:hover {
           color: lightgreen;
           font-size: 24px;
@@ -59,7 +61,8 @@
       }
       p {
         padding: 10px;
-        line-height: 20px;
+        line-height: 1.4;
+        letter-spacing: 1.5px;
         text-indent: 30px;
       }
     }

@@ -13,6 +13,7 @@
     margin-left: 10px;
   }
   a {
+    padding: 15px;
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -20,8 +21,8 @@
     clip-path: circle();
     color: white;
     background-color: black;
-    padding: 10px;
     font-size: 18px;
+    padding: 10px;
   }
 }
 
@@ -33,7 +34,7 @@
   padding-top: 10em;
   animation: slideFromBottom 1s ease forwards;
   .blog_post {
-    flex: 0 0 40%;
+    flex: 0 0 29%;
     height: auto;
     overflow: hidden;
     border: none;

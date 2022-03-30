@@ -19,12 +19,15 @@ function Footer() {
         <img src={require("../../assets/Images/logo-thobor.png").default} alt="ferikire"/>
         <a href="https://www.youtube.com/channel/UCoUzT42Ce6f_11ICDef3svA">
         <FontAwesomeIcon icon={faYoutube} />
+        Thobor
         </a>
         <a href="https://www.instagram.com/thoborcnch/">
         <FontAwesomeIcon icon={faInstagram} />
+        ThoborCNCH
         </a>
         <a href="https://www.facebook.com/ThoborCNCH/">
         <FontAwesomeIcon icon={faFacebook} />
+        Thobor
         </a>
       </div>
       <div className="section-list">

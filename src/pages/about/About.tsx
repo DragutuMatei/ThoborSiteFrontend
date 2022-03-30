@@ -15,50 +15,42 @@ function About() {
           <div className="scris">
             <h2>Povestea noastra</h2>
             <p>
-              Echipa THOBOR a Colegiului Național “Calistrat Hogaş” Tecuci, este
-              formată din douazeci si cinci de liceeni si doi mentori care ne
-              indruma pe caile roboticii. Plecată dintr-o zonă fără tradiții în
-              domeniu, echipa și-a propus să aducă în comunitate o idei noi,
-              care să-i inspire pe toți colegii si care să deschidă noi
-              orizonturi pentru copii. Echipa are deja o vechime de 5 ani și pe
-              parcursul acestor ani am învățat că intr-adevar competitia First
-              este un rollecoaster de emotii ce ne tine in priza si il pretuim
-              mereu.
+              Noi suntem echipa de robotică a Colegiului Național „Calistrat
+              Hogaș”, Tecuci, formată din mentori, 15 liceeni și voluntari, iar
+              noi îndrăznim să visăm împreună. Am început dintr-o zonă fără
+              tradiție în domeniu și ne-am propus să aducem în comunitate un
+              concept nou, care să propună perspective noi tinerilor. Thobor
+              este o echipă unde adolescenții trăiesc această pasiune în
+              comunitatea din acest mic oraș. Alături de superputerea noastră,
+              STEAM, încercăm să arătăm celor din jurul nostru în ce se poate
+              transforma pasiunea pentru știință. Echipa noastră este încântată
+              să participe în al cincilea an al competiției First Tech Challenge
+              România, sezonul 2022, Freight Frenzy. Educația STEAM este un
+              acronim care vine de la cuvintele englezești: Science, Technology,
+              Engineering, Art și Mathematics. Robotica îmbină eficient aceste
+              discipline, conducând elevii pas cu pas prin descoperire, către
+              obiectivul final, robotul, punând in practică un alt concept:
+              Learning by doing!
             </p>
 
             <h3>Sezonul 1 (2017-2018)</h3>
             <p>
-              Primul an de competitie, acest an am putea să-l numim anul
-              încercărilor. Eram siguri ca proiectul ne va ajută să fim
-              inventivi și știam sigur că vom avea multe de învățat atât
-              științific, cât și din punct de vedere al comunicării.De asemenea,
-              munca în echipă ne-a oferit ocazia să ne descoperim pe noi înșine,
-              să ne cunoaștem reciproc și să avem o altă perspectivă asupra
-              roboticii. Tema propusă pentru sezonul de anul acesta este Relic
-              Recovery , în care roboțelul trebuie să adune cuburi și să le
-              plaseze într-un raft, numit Cryptobox. La finalul sezonului am
-              fost bucuroși să vedem primele noastre premii Think Award și
-              Control Award 2nd place,dar fericirea cea mai mare am simțit-o
-              atunci când dupa toate eforturile am putut spune că ,în sfârșit,
-              Tecuciul se află pe harta roboticii.
+              Primul sezon la care am participat a fost cu siguranță un continuu
+              proces de descoperire. Construirea unui robot, crearea unui cod,
+              organizarea unui jurnal, formarea unei echipei compacte și
+              eficiente, toate au fost o noutate pentru noi. Am învățat
+              împreună, am învățat unul de la altul, am învățat ce înseamnă
+              echipa. Premii: Think Award - locul I Control Award - locul II
             </p>
 
             <h3>Sezonul 2 (2018-2019)</h3>
             <p>
-              Al doilea an în competiție a fost un nou început cu forțe noi, dar
-              și oameni noi. Complexitatea competiției crescuse prin
-              introducerea fazei regionale din februarie 2019, având drept miză
-              calificarea la etapa națională, dar nu am lăsat acest lucru să ne
-              doboare. Am vrut să ne lăsam amprenta pe noua generație, așa că
-              promovând valorile <b>FIRST</b>, echipa a fost prezentă în peste
-              15 unități de învățământ din oraș și din localitățile din zonă,
-              organizand workshopuri si cercuri de robotică,deschizând noi
-              orizonturi și alternative de traseu educațional pentru copii. La
-              sfârșitul acestui sezon, ne-am putut însuma rezultatele în
-              portofoliu: <b>WINNING ALLIANCE</b>–first pick și{" "}
-              <b>INSPIRE AWARD</b>
-              -2nd place, <b>FINALIST ALLIANCE</b>–first pick,{" "}
-              <b>COMPASS AWARD</b> și <b>Nație Prin Educație</b>-2nd place.
+              Complexitatea competiției a crescut prin introducerea fazei
+              regionale, miza fiind calificarea la etapa națională. Cele trei
+              zile de concurs, desfășurate în martie, au solicitat la maxim
+              resursele fizice și emoționale ale membrilor echipe. Faptul că am
+              reușit să jucăm finala în divizia Vlaicu ne-a clasat astfel în
+              primele 8 echipe din țară.
             </p>
           </div>
         </div>
@@ -70,24 +62,23 @@ function About() {
           <div className="scris">
             <h3>Sezonul 3 (2019-2020)</h3>
             <p>
-              Al treilea an in competie a fost consacrat de ingeniozitatea
-              fostilor voluntari,acum membri care au venit cu noi idei si
-              initiative inovative.In echipa am primit un copil cu o minte
-              geniala ce nu a lasat ca deficientele sale fizice sa i impiedice
-              spiritul.De la acesta am invatat ca vointa este elementul cheie in
-              competitia First.In sezonul 3 am obtinut Inspire Award 1st Place.
+              Acest sezon a demarat cu un start putenic, echipa fiind reînnoită
+              în proporție de 70%. Pentru prima dată am avut 2 roboți fiabili și
+              funcționali, cu sisteme diferite și primul nostru Demo marca
+              Thobor, aducând competiția în Tecuci. Datorită pandemiei am putut
+              participa doar la etapa Regională Iași, unde am obținut cel mai
+              important premiu al concursului: Inspire Award - locul I.
             </p>
 
             <h3>Sezonul 4 (2020-2021)</h3>
             <p>
-              Al patrulea an in competitie a fost unul al tranzitiilor.In primul
-              rand multi membrii si au pregatit parasirea echipei prin pasarea
-              mai departe a cunostintelor in mecanica,programare si
-              proiectare.Apoi competitia First in sine a suferit schimbari din
-              cauza pandemiei de Covid-19 majoritatea sezonului fiind desfasurat
-              remote.Totusi nu am lasat aceste circumstante sa ne descurajeze si
-              am dat ca intotdeauna 110 % din noi si am adus acasa *premii baga
-              aici.
+              Al cincilea sezon FTC a reprezentat încă un an în sistem remote,
+              parcursul echipei fiind lovit din plin de contextul pandemic,
+              acest lucru ducând la anularea sau mutarea în mediul online a
+              multor planuri prestabilite. În ciuda acestui fapt, am reușit sa
+              obținem INSPIRE - locul II la etapa regională și să ne aflăm
+              printre cele 24 de echipe participante la etapa națională,
+              desfășurată fizic, obținând CONNECT - locul I
             </p>
           </div>
         </div>
@@ -99,13 +90,16 @@ function About() {
           <div className="scris">
             <h3>Sezonul 5 (2021-2022)</h3>
             <p>
-              Am ajuns in prezent.Cu alti oameni dar acelasi spirit echipa
-              THOBOR va continua sa exceleze in robotica romaneasca.
+              Sezonul curent ne-a adus alte noi provocări în cadrul echipei, pe
+              care le-am materializat în premiul obținut la etapa regională
+              MOTIVATE AWARD- locul I și calificarea la etapa națională.
             </p>
           </div>
         </div>
         <div className="about_4">
-          <h1>Continuăm să scriem poveste..<span>.</span></h1>
+          <h1>
+            Continuăm să scriem poveste..<span>.</span>
+          </h1>
         </div>
       </div>
     </div>
