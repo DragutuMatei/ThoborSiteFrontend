@@ -36,15 +36,15 @@
         width: fit-content;
         letter-spacing: 2px;
         padding-bottom: 2em;
-        transition: .1s;
-        &:hover{
+        transition: 0.1s;
+        &:hover {
           color: green;
           font-size: 28px;
         }
       }
       h3 {
         width: fit-content;
-        transition: .1s;
+        transition: 0.1s;
         padding: 20px;
         letter-spacing: 1.5px;
         &:hover {
@@ -53,9 +53,9 @@
         }
       }
       b {
-        transition: .1s;
+        transition: 0.1s;
         &:hover {
-          color:lightgreen;
+          color: lightgreen;
           font-size: 18px;
         }
       }
@@ -102,12 +102,11 @@
         height: 85px;
         width: 40px;
         background-color: black;
-        animation: blink .8s linear infinite alternate;
+        animation: blink 0.8s linear infinite alternate;
       }
     }
   }
 }
-
 
 @keyframes blink {
   from {
