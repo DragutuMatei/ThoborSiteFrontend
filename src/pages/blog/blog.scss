@@ -55,11 +55,11 @@
         color: #bbb;
         padding-top: 20px;
       }
-      .title{
+      .title {
         font-size: 36px;
         padding-top: 10px;
       }
-      .description{
+      .description {
         font-size: 18px;
         padding-top: 10px;
         white-space: nowrap;
@@ -68,7 +68,12 @@
       }
     }
     .blog_post_image {
-        width: 50%;
+      width: 100%;
+      height: auto;
+      max-height: 300px;
+      max-width: 100%;
+      object-fit: cover;
+      object-position: center;
       img {
         width: 300px;
         height: 300px;
@@ -88,7 +93,7 @@
     font-size: 48px;
     padding-top: 100px;
     text-align: center;
-    font-family: 'Space Mono', monospace; 
+    font-family: "Space Mono", monospace;
   }
   hr {
     width: 5%;
