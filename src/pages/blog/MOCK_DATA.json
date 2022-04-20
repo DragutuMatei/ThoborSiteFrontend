@@ -1,26 +1,74 @@
 [
   {
-    "title": "prima",
-    "img": "../Images/1.png"
+    "title": "ecofirstchallange",
+    "img": "../Images/blog1.jpg"
   },
   {
-    "title": "a doua",
-    "img": "../Images/1.png"
+    "title": "Hristos a înviat",
+    "img": "../Images/blog2.jpg"
   },
   {
-    "title": "a treia",
-    "img": "../Images/1.png"
+    "title": "Un nou ajutor adus",
+    "img": "../Images/blog3.jpg"
   },
   {
-    "title": "a patra",
-    "img": "../Images/1.png"
+    "title": "Ajutand Valea Marului",
+    "img": "../Images/blog4.jpg"
   },
   {
-    "title": "a cincea",
-    "img": "../Images/1.png"
+    "title": "UmărLângăUmăr",
+    "img": "../Images/blog5.jpg"
   },
   {
-    "title": "a sasea",
-    "img": "../Images/1.png"
+    "title": "Poze de gruup",
+    "img": "../Images/blog6.png"
+  },
+  {
+    "title": "DEMO THOBOR",
+    "img": "../Images/blog7.jpg"
+  },
+  {
+    "title": "Velocity Robotics Team",
+    "img": "../Images/blog8.jpg"
+  },
+  {
+    "title": "Crestem mai mari",
+    "img": "../Images/blog9.jpg"
+  },
+  {
+    "title": "Our Christmas spirit",
+    "img": "../Images/blog10.jpg"
+  },
+  {
+    "title": "Workshop cu Thobor",
+    "img": "../Images/blog11.jpg"
+  },
+  {
+    "title": "Virtual Wolves",
+    "img": "../Images/blog12.jpg"
+  },
+  {
+    "title": "STEM pentru juniori",
+    "img": "../Images/blog13.jpg"
+  },
+  {
+    "title": "Fereastra către știință",
+    "img": "../Images/blog14.jpg"
+  },
+  {
+    "title": "Independence Day",
+    "img": "../Images/blog15.jpg"
+  },
+  {
+    "title": "Inorogs",
+    "img": "../Images/blog16.jpg"
+  },
+  {
+    "title": "Science and Spirituality",
+    "img": "../Images/blog17.jpg"
+  },
+  {
+    "title": "Showing gratitude",
+    "img": "../Images/blog18.jpg"
   }
 ]

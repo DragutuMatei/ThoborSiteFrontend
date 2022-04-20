@@ -19,8 +19,20 @@
             overflow: hidden;
             border: none;
             border-radius: 50px;
-            margin: 20px;
-            &:nth-child(2) {
+            margin: 100px;
+            &:nth-child(1) {
+                flex-direction: row;
+            }
+             &:nth-child(3) {
+                flex-direction: row;
+            }
+             &:nth-child(5) {
+                flex-direction: row;
+            }
+            &:nth-child(7) {
+                flex-direction: row;
+            }
+            &:nth-child(9) {
                 flex-direction: row;
             }
             .text {
